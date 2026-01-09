@@ -78,21 +78,20 @@ FluxCache is the **only** semantic cache that:
 ```rust
 use fluxcache::FluxCache;
 
-#[tokio::main]
-async fn main() {
+async fn main() -> Result<(), Box<dyn std::error::Error>> {
     // Initialize with semantic caching + streaming support
     let cache = FluxCache::new()
         .with_streaming() // Enable partial response caching
         .with_adaptive_threshold() // ML-powered threshold learning
         .with_dashboard() // Real-time TUI cost tracking
-        .await
-        .unwrap();
+        .await?;
     
     // Works as drop-in replacement for OpenAI/Anthropic
     let response = cache.query("How do I reset my password?").await?;
     
     // Second identical query: <50ms, $0 cost
     let cached = cache.query("how to reset password?").await?;
+    Ok(())
 }
 ```
 
