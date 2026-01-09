@@ -7,9 +7,9 @@
 
 **Stop bleeding money on duplicate LLM calls.** FluxCache is the first streaming-aware semantic cache that learns from mistakes, tracks your savings in real-time, and cuts your LLM API bills by 70-80%.
 
->  **Real Impact**: Save $2,000-$5,000/month for applications with 100K+ queries. Get 40x latency improvements (2000ms → 50ms).
+> **Real Impact**: Save $2,000-$5,000/month for applications with 100K+ queries. Get 40x latency improvements (2000ms → 50ms).
 
-##  Why FluxCache Exists
+## Why FluxCache Exists
 
 Modern LLM applications face a **stateless crisis** that costs companies thousands of dollars monthly. Every query is treated as brand new, even when semantically identical questions have been answered minutes ago.
 
@@ -56,7 +56,7 @@ Modern LLM applications face a **stateless crisis** that costs companies thousan
 - Similarity heatmaps and Prometheus metrics
 - **Impact**: "Yesterday you saved $47.32 (423 cache hits)"
 
-##  Unique Value Proposition
+## Unique Value Proposition
 
 FluxCache is the **only** semantic cache that:
 1. **Doesn't waste incomplete responses** - Streaming-aware caching (world's first!)
@@ -64,7 +64,7 @@ FluxCache is the **only** semantic cache that:
 3. **Shows you the money** - Real-time cost tracking dashboard
 4. **Built for speed** - Rust performance, sub-millisecond overhead
 
-##  Expected Impact (v1.0)
+## Expected Impact (v1.0)
 
 | Metric | Before | After | Improvement |
 |--------|--------|-------|-------------|
@@ -73,7 +73,7 @@ FluxCache is the **only** semantic cache that:
 | **Streaming waste** | 20% lost | Recovered | **$500+/mo saved** |
 | **Cache hit rate** | 50% (static) | 70% (adaptive) | **+40% hits** |
 
-##  Quick Start
+## Quick Start
 
 ```rust
 use fluxcache::FluxCache;
@@ -101,7 +101,7 @@ fluxcache dashboard
 # See live savings: " Today: $12.47 saved (87 hits, 71% hit rate)"
 ```
 
-##  Installation
+## Installation
 
 Add to your `Cargo.toml`:
 ```toml
@@ -113,7 +113,7 @@ fluxcache = "0.1.0"
 - Rust 1.75+
 - Redis 7.0+ (with RedisSearch module for vector search)
 
-##  Roadmap
+## Roadmap
 
 - **v0.1.0** (Weeks 1-4): Foundation - Semantic caching + Redis integration
 - **v0.2.0** (Weeks 5-8): Innovation - Streaming cache + adaptive thresholds
@@ -121,14 +121,14 @@ fluxcache = "0.1.0"
 
 See our [Vision](https://github.com/bv-saketha-rama/FluxCache/issues/2) for detailed roadmap.
 
-##  Documentation
+## Documentation
 
 - [Vision & Roadmap](https://github.com/bv-saketha-rama/FluxCache/issues/2)
 - [Architecture](docs/ARCHITECTURE.md)
 - [Development Guide](docs/DEVELOPMENT.md)
 - [Contributing](CONTRIBUTING.md)
 
-##  Contributing
+## Contributing
 
 We're solving hard problems in LLM caching! Contributions welcome:
 - Report bugs or request features

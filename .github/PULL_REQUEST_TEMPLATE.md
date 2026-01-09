@@ -82,7 +82,7 @@ Relates to #
 - [ ] Performance degraded (justify why)
 
 **Before/After Benchmarks** (if applicable):
-```
+```text
 <!-- Paste benchmark results here -->
 ```
 
