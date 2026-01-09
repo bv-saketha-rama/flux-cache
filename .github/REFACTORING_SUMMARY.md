@@ -43,15 +43,15 @@ FluxCache solves **4 Critical Problems**:
 - Explicitly calls out roadmap phases and focus areas
 - Labels suggestions: `good-first-issue`, `help-wanted`, `roadmap`
 
-###  SECURITY.md
+### SECURITY.md
 **Production-Focused Security**:
 - Emphasized production-readiness and enterprise-grade goals
 - Added LLM-specific security concerns (PII in cache, API keys)
 - Expanded best practices with categories:
-    - Data Protection (encryption, TTL, isolation)
-    - Access Control (Redis auth, network security)
-    - Operational Security (rate limiting, audit logs, monitoring)
-    - Development (input validation, error handling)
+-     - Data Protection (encryption, TTL, isolation)
+-     - Access Control (Redis auth, network security)
+-     - Operational Security (rate limiting, audit logs, monitoring)
+-     - Development (input validation, error handling)
 
 **Key Changes**:
 - Highlighted handling of sensitive LLM data (queries, responses, embeddings)
