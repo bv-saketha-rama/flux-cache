@@ -19,7 +19,9 @@ Currently, we support the following versions with security updates:
 
 **Please do not report security vulnerabilities through public GitHub issues.**
 
-Instead, please report them via email to **security@fluxcache.dev** (or your email).
+Instead, please report them via email to 
+* **Saketha Rama:** [sakethram9999@gmail.com](mailto:sakethram9999@gmail.com)
+* **Avinash Changrani:** [another@email.com](mailto:avinashchangrani99@email.com)
 
 Include the following information:
 - Type of vulnerability
