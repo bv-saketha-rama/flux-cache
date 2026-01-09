@@ -64,7 +64,7 @@ FluxCache solves **4 Critical Problems**:
 - Explained impact: bug reports help deliver 70-80% cost savings promise
 - Connected bugs to mission of building streaming-aware cache
 
-### github/ISSUE_TEMPLATE/feature_request.yml
+### .github/ISSUE_TEMPLATE/feature_request.yml
 **Strategic Feature Requests**:
 - Listed 4 core problems in intro
 - Encouraged alignment with vision document
