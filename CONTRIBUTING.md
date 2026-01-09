@@ -313,7 +313,9 @@ mod tests {
 - **Questions**: Open a GitHub Discussion
 - **Bugs**: Create a bug report issue
 - **Chat**: Join our Discord/Slack (if available)
-- **Email**: * **Saketha Rama:** [sakethram9999@gmail.com](mailto:sakethram9999@gmail.com),  **Avinash Changrani:** [another@email.com](mailto:avinashchangrani99@email.com)
+- **Email**:
+   - **Saketha Rama:** [sakethram9999@gmail.com](mailto:sakethram9999@gmail.com),
+   - **Avinash Changrani:** [avinashchangrani99@email.com](mailto:avinashchangrani99@email.com)
 
 ## Recognition
 
