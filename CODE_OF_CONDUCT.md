@@ -48,7 +48,7 @@ an individual is officially representing the community in public spaces.
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported to the project maintainers at 
 * **Saketha Rama:** [sakethram9999@gmail.com](mailto:sakethram9999@gmail.com)
-* **Avinash Changrani:** [another@email.com](mailto:avinashchangrani99@email.com)
+* **Avinash Changrani:** [avinashchangrani99@email.com](mailto:avinashchangrani99@email.com)
 
 All complaints will be reviewed and investigated promptly and fairly.
 
