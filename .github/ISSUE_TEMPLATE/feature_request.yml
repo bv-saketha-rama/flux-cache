@@ -1,0 +1,79 @@
+name: Feature Request
+description: Suggest a new feature or enhancement
+title: "[FEATURE] "
+labels: ["enhancement", "triage"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a feature! 
+        
+        FluxCache solves 4 critical problems: **Redundant Query Tax**, **Streaming Waste**, **Static Thresholds**, and **Observability Gap**.
+        
+        Consider how your feature aligns with our [Vision](https://github.com/bv-saketha-rama/FluxCache/issues/2).
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem Statement
+      description: What problem does this feature solve?
+      placeholder: "I'm frustrated when..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: How would you like this to work?
+      placeholder: Describe your ideal solution...
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: What alternative solutions have you considered?
+      placeholder: Other ways to solve this...
+
+  - type: textarea
+    id: examples
+    attributes:
+      label: Examples / Use Cases
+      description: Provide examples of how this would be used
+      placeholder: |
+        Example usage:
+        ```rust
+        // Your code example here
+        ```
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: How important is this to you?
+      options:
+        - Low - Nice to have
+        - Medium - Would improve my workflow
+        - High - Blocking my use case
+        - Critical - Cannot use FluxCache without this
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Contribution
+      options:
+        - label: I am willing to implement this feature
+        - label: I am willing to help test this feature
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Add any other context, mockups, or screenshots
+      placeholder: Links to similar features in other projects, etc.

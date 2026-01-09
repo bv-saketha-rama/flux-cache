@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name:  GitHub Discussions
+    url: https://github.com/bv-saketha-rama/fluxcache/discussions
+    about: Ask questions and discuss ideas with the community
+  - name:  Documentation
+    url: https://github.com/bv-saketha-rama/fluxcache/tree/main/docs
+    about: Read the documentation
+  - name:  Vision & Roadmap
+    url: https://github.com/bv-saketha-rama/fluxcache/issues/2
+    about: See our project vision and roadmap
