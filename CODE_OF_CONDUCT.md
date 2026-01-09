@@ -50,7 +50,7 @@ reported to the project maintainers at
 * **Saketha Rama:** [sakethram9999@gmail.com](mailto:sakethram9999@gmail.com)
 * **Avinash Changrani:** [another@email.com](mailto:avinashchangrani99@email.com)
 
-* All complaints will be reviewed and investigated promptly and fairly.
+All complaints will be reviewed and investigated promptly and fairly.
 
 ## Attribution
 
